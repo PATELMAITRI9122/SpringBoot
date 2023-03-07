@@ -1,4 +1,4 @@
-package com.dailycodebuffer.SpringBoot;
+package com.dailycodebuffer.SpringBoot.Controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

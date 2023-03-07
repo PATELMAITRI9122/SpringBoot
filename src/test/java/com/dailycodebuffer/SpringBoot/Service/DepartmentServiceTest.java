@@ -1,8 +1,7 @@
 package com.dailycodebuffer.SpringBoot.Service;
 
-import com.dailycodebuffer.SpringBoot.Department;
-import com.dailycodebuffer.SpringBoot.DepartmentRepository;
-import com.dailycodebuffer.SpringBoot.DepartmentService;
+import com.dailycodebuffer.SpringBoot.Entity.Department;
+import com.dailycodebuffer.SpringBoot.Repository.DepartmentRepository;
 import org.junit.jupiter.api.*;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;

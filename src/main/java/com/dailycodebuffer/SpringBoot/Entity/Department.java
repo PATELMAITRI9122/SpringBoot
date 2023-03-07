@@ -1,4 +1,4 @@
-package com.dailycodebuffer.SpringBoot;
+package com.dailycodebuffer.SpringBoot.Entity;
 
 import lombok.*;
 import org.hibernate.validator.constraints.Length;

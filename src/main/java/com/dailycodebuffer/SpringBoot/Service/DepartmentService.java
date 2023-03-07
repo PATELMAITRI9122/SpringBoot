@@ -1,7 +1,7 @@
-package com.dailycodebuffer.SpringBoot;
+package com.dailycodebuffer.SpringBoot.Service;
 
-import com.dailycodebuffer.SpringBoot.DepartmentNotFoundException;
-import com.dailycodebuffer.SpringBoot.Department;
+import com.dailycodebuffer.SpringBoot.CustomeException.DepartmentNotFoundException;
+import com.dailycodebuffer.SpringBoot.Entity.Department;
 
 import java.util.List;
 

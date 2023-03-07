@@ -1,5 +1,8 @@
-package com.dailycodebuffer.SpringBoot;
+package com.dailycodebuffer.SpringBoot.Service;
 
+import com.dailycodebuffer.SpringBoot.CustomeException.DepartmentNotFoundException;
+import com.dailycodebuffer.SpringBoot.Entity.Department;
+import com.dailycodebuffer.SpringBoot.Repository.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -8,7 +11,7 @@ import java.util.Objects;
 import java.util.Optional;
 
 @Service
-public class DepartmentServiceImpl implements DepartmentService{
+public class DepartmentServiceImpl implements DepartmentService {
 
     @Autowired
     private DepartmentRepository departmentRepository;

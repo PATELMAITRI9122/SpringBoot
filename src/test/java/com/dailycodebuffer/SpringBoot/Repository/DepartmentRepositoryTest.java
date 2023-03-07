@@ -1,7 +1,6 @@
 package com.dailycodebuffer.SpringBoot.Repository;
 
-import com.dailycodebuffer.SpringBoot.Department;
-import com.dailycodebuffer.SpringBoot.DepartmentRepository;
+import com.dailycodebuffer.SpringBoot.Entity.Department;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

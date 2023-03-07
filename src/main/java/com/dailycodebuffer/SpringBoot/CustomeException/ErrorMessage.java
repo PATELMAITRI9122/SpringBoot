@@ -1,4 +1,4 @@
-package com.dailycodebuffer.SpringBoot;
+package com.dailycodebuffer.SpringBoot.CustomeException;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,5 +1,7 @@
-package com.dailycodebuffer.SpringBoot;
+package com.dailycodebuffer.SpringBoot.CustomeException;
 
+import com.dailycodebuffer.SpringBoot.CustomeException.DepartmentNotFoundException;
+import com.dailycodebuffer.SpringBoot.CustomeException.ErrorMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
